@@ -53,7 +53,7 @@ chmod 644 AppDir/DEBIAN/control
 chmod 644 AppDir/DEBIAN/conffiles
 
 # Build the package
-dpkg-deb --build AppDir pika-backup_${RELEASE_VERSION}_amd64.deb
+dpkg-deb --root-owner-group --build AppDir pika-backup_${RELEASE_VERSION}_amd64.deb
 
 # Verify the package
 lintian pika-backup_${RELEASE_VERSION}_amd64.deb
