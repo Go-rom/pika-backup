@@ -15,7 +15,7 @@ apt update && apt install -y \
 
 # Clone the repository
 rm -rf pika-backup
-git clone --branch v$RELEASE_VERSION https://gitlab.gnome.org/World/pika-backup.git pika-backup
+git clone --branch $RELEASE_VERSION https://gitlab.gnome.org/World/pika-backup.git pika-backup
 
 cd pika-backup
 mkdir -p AppDir
