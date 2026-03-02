@@ -11,7 +11,7 @@ apt update && apt install -y \
     wget build-essential rustc cargo libgtk-4-dev pkg-config libpango1.0-dev \
     libgraphene-1.0-dev \
     libadwaita-1-dev \
-    fuse libgdk-pixbuf2.0-dev meson gettext itstool git gzip lintian
+    fuse3 python3-pyfuse3 libgdk-pixbuf2.0-dev meson gettext itstool git gzip lintian
 
 # Clone the repository
 rm -rf pika-backup
