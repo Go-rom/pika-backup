@@ -2,7 +2,7 @@
 
 set -e
 
-RELEASE_VERSION=0.7.4
+RELEASE_VERSION=0.7.6
 
 # Update version in DEBIAN/control
 sed -i "s/Version: .*/Version: $RELEASE_VERSION/" DEBIAN/control
